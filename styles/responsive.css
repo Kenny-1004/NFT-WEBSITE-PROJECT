@@ -125,4 +125,16 @@
         margin-bottom: 2rem;
     }
 
+    .footer-header h1{
+        font-size: 1rem;
+    }
+
+    .aside-container ul li{
+        font-size: 0.5rem;
+    }
+
+    .aside-container p{
+        font-size: 0.5rem;
+    }
+
 }

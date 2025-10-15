@@ -50,6 +50,8 @@
 
 
 /* main styles */
+
+
 .main-section{
     max-width: var(--max-width);
     margin: auto;
@@ -232,7 +234,7 @@
     justify-content: space-between;
     padding: 1rem 0 1rem 0;
     margin-bottom: 1rem;
-    border-bottom: 1px solid rgb(183, 183, 183);
+    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .nums{
@@ -259,3 +261,117 @@
     font-size: 0.8rem;
 }
 
+
+
+
+/* view more  */
+
+.view-more{
+    justify-self: center;
+    margin-top: 3rem;
+    background-color: rgb(228, 228, 228);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+
+/* best seller section  */
+
+.best-seller-heading{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+
+.best-seller-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.people-card{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(210, 210, 210);
+    padding: 10px;
+    border-radius: 12px;
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 15rem;
+}
+
+.people-card div h3{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.people-card div p{
+    font-size: 13px;
+}
+
+.people-card img{
+    width: 45px;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+
+
+/* footer section  */
+
+footer{
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    padding: 1rem;
+    max-width: var(--max-width);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-family: var(--primary-font);
+}
+
+.footer-header h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.aside-container{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.aside-container ul{
+    display: flex;
+    gap: 1rem;
+    color: grey;
+}
+
+.aside-container ul li:hover{
+    color: rgb(55, 108, 255);
+    transition: 0.3s;
+}
+
+.aside-container p{
+    color: grey;
+}
+
+.icons-container i{
+    color: white;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.icons-container i:hover{
+    color: rgb(55, 108, 255);
+}

@@ -1,0 +1,128 @@
+
+
+@media screen and (max-width: 1098px){
+    .aside-container ul li{
+        font-size: 0.8rem;
+    }
+
+    .aside-container div i{
+        font-size: 1rem;
+    }
+
+    .aside-container p{
+        font-size: 0.8rem;
+    }
+
+    .footer-header h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .hero-header{
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 918px) {
+    .nav-title{
+        display: none;
+    }
+
+    .hero-section{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-bottom: 2rem;
+    }
+
+    .hero-container figure img{
+        height: 400px;
+    }
+
+    .hero-section{
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 740px) {
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header{
+        font-size: 0.7rem;
+    }
+
+    .get-started, .Login{
+        font-size: 0.6rem;
+        padding: 10px 15px;
+    }
+
+    .aside-container{
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .hero-article p{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-header{
+        font-size: 2rem;
+    }
+
+    .hero-container figure img{
+        height: 400px;
+    }
+
+    .buy-btn{
+        width: 150px;
+        height: 40px;
+        margin: auto;
+    }
+
+    .buy-btn div{
+        height: 30px;
+        width: 30px;
+    }
+
+    .buy-btn h3{
+        font-size: 0.8rem;
+    }
+
+    .hero-article{
+        text-align: center;
+        align-items: center;
+    }
+
+    .material-symbols-outlined{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .hero-container figure img{
+        height: 250px;
+    }
+
+    .nav-links{
+        gap: 0.4rem;
+        font-size: 0.6rem;
+    }
+
+    .get-started, .Login{
+        font-size: 0.4rem;
+        padding: 7px 10px;
+    }
+
+    .hero-article p{
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+}

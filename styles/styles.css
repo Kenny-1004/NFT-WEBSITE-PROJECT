@@ -387,13 +387,15 @@ footer{
     color: white;
     margin: auto;
     padding: 3rem;
-    max-width: 1400px;
+    max-width: 1980px;
 }
 
 .footer-container{
     height: 300px;
     display: flex;
     align-items: center;
+    max-width: var(--max-width);
+    padding: 2rem;
     margin: auto;
     font-family: var(--primary-font);
 }
